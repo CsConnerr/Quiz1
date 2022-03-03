@@ -30,8 +30,8 @@ int main(){
    tip = cost*pTip/100;
    total =cost + tax + tip;
    printf("Total Tax: $%lf",tax);
-   printf("Tip Amount: $%lf",tip);
-   printf("Total Cost: $%lf",total);
+   printf("\nTip Amount: $%2lf",tip);
+   printf("\nTotal Cost: $%2lf",total);
 
    return 0;
 }
